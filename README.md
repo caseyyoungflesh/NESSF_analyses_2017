@@ -1,7 +1,10 @@
 # NESSF_renewal_2017
 
-All scripts required to run analyses included in NASA Earth and Space Science Fellowhsip (NESSF) 2017 renewal (for C Youngflesh) are included.
+All scripts required to run analyses included in NASA Earth and Space Science Fellowhsip (NESSF) 2017 renewal for C Youngflesh.
 
+_RENEWAL: Environmental forcing of Antarctic food web dynamics - a multi-tiered approach emploing multispectral imagery, field spectroscopy, and stable isotope analysis_
+
+&nbsp;
 
 Scripts are numbered in the order in which they should be run:
 
