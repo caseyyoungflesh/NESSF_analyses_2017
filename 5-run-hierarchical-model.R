@@ -206,7 +206,7 @@ antarctica +
                  group = S_ID, 
                  colour = mn_dN), 
              size = 2) +
-  scale_colour_gradient("Mean dN", 
+  scale_colour_gradient2("Mean dN", 
                         limits = c(min(t_plot$mn_dN), 
                                    max(t_plot$mn_dN)), 
                         low = "red", 
@@ -225,13 +225,13 @@ antarctica +
                  y = latitude, 
                  group = S_ID, 
                  colour = med_b), 
-             size = 2) +
-  scale_colour_gradient("Estimated slope", 
+             size = 4, alpha = 0.8) +
+  scale_colour_gradient2("Estimated Tr", 
                         limits = c(min(t_plot$med_b), 
                                    max(t_plot$med_b)), 
                         low = "red", 
                         high = "blue") + 
-  theme(legend.position = c(0.15, 0.15))
+  theme(legend.position = c(0.1, 0.15))
 
 
 
