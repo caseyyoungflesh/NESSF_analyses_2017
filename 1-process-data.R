@@ -48,9 +48,9 @@ pacman::p_load(dplyr, pls, R2jags, MCMCvis, ggplot2, mapproj)
 
 setwd(paste0(dir, 'Spec_change_over_time_Schwaller_algo/Data'))
 
-L45 <- read.csv('L45_retreival_dec_13_2016.csv', header = TRUE)
-L7 <- read.csv('L7_retreival_dec_13_2016.csv', header = TRUE)
-L8 <- read.csv('L8_retreival_dec_13_2016.csv', header = TRUE)
+L45 <- read.csv('L45_retrieval_dec_13_2016.csv', header = TRUE)
+L7 <- read.csv('L7_retrieval_dec_13_2016.csv', header = TRUE)
+L8 <- read.csv('L8_retrieval_dec_13_2016.csv', header = TRUE)
 
 #Landsat file naming convention:
 #LXSPPPRRRYYYYDDDGSIVV
